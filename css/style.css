@@ -3,10 +3,10 @@
 	padding:0;
 }
 body{
-	background:#000;
+	background:#fff;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-size:15px;
-	color: #fff;
+	color: #000;
 	text-transform:uppercase;
 	overflow-x:hidden;
 }
@@ -95,4 +95,42 @@ li.oe_heading{
 	margin-bottom:10px;
 	padding-bottom:6px;
 	border-bottom:1px solid #ddd;
+}
+h1
+{
+	display: inline;
+	box-shadow: 3px 3px	5px lightblue;
+}
+.tittle{
+background-color: yellow;
+color: red;
+}
+#container{
+	display: flex;
+
+}
+
+#wrapper{
+	display: grid;
+	grid-template-columns: 120px;
+}
+
+.one{
+	order: 3;
+}
+.two{
+	order: 1;
+}
+.three{
+	order:2;
+}
+
+#description{
+	background-color: green;
+	color:white;
+}
+
+#other{
+	background-color: purple;
+	color:red;
 }
