@@ -74,3 +74,144 @@ body {
   margin: 0 auto;
   border-radius: 100%;
 }
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1320px;
+  padding: 0 1.42857rem;
+  margin: 0 auto; }
+  @media (max-width: 799px) {
+    .container {
+      padding: 0 2.14286rem; } }
+
+  .nav-wrapperheader {
+    flex-shrink: 0;
+    flex-grow: 0; }
+    .nav-wrapperheader.index {
+      background-color: #f2f2f2; }
+    .nav-wrapperheader.configurator {
+      background-color: #dadada; }
+
+      
+.nav-container {
+  padding: 1.07143rem 0.71429rem;
+  box-sizing: border-box;
+  color: #43525A;
+  font-size: 1.14286rem; }
+  .nav-container .nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+    .nav-container .nav-main .nav-left {
+      display: flex;
+      flex: 1 1 100%;
+      align-items: center; }
+    .nav-container .nav-main .logo-container__FMI_AYzc {
+      transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transform: translateY(0); }
+    .nav-container .nav-main .logo__2j67no28 {
+      flex: 0 0 14.28571rem;
+      width: 14.28571rem; }
+    .nav-container .nav-main .nav-right__w7yjXSVS {
+      display: flex;
+      flex: 1 1 100%;
+      justify-content: flex-end;
+      align-items: center; }
+  .nav-container .nav-link__4-A4Dpdw {
+    display: block;
+    padding: 1.07143rem;
+    margin: 0.71429rem;
+    color: #43525A;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-delay: 0;
+    transform: translateY(-71.42857rem); }
+    .nav-container .nav-link__4-A4Dpdw:hover {
+      color: #28A5BE; }
+  .nav-container .nav-link-active__1Su161wE {
+    color: #28A5BE; }
+  .nav-container .nav-separator__g1M1LyCG {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: block;
+    height: 1px;
+    width: 2.85714rem;
+    background-color: #43525A;
+    margin: 1.42857rem auto; }
+  .nav-container .nav-more-button__269y0b-S {
+    border: none;
+    outline: none;
+    font-size: 1.14286rem;
+    padding: 0.35714rem;
+    margin: 0.35714rem;
+    color: #43525A;
+    transition: all 0.3s ease-in-out;
+    background: transparent; }
+    .nav-container .nav-more-button__269y0b-S.active__KVbLKwn4 {
+      color: #28A5BE;
+      cursor: pointer; }
+  .nav-container .nav-configurator__tiRWpIZe {
+    display: inline-block;
+    padding: 0.71429rem 0rem;
+    margin: 0.71429rem auto 1.42857rem;
+    border-bottom: 0.14286rem solid #28A5BE;
+    color: #43525A;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-delay: 0.3s;
+    transform: translateY(-71.42857rem); }
+    .nav-container .nav-configurator__tiRWpIZe:hover {
+      color: #28A5BE; }
+  .nav-container .nav-extra__3_bHDK0Q {
+    display: block;
+    text-align: center;
+    padding: 0;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+    .nav-container .nav-extra__3_bHDK0Q.visible__24xI0wB3 {
+      padding: 2.14286rem 0;
+      opacity: 1; }
+      .nav-container .nav-extra__3_bHDK0Q.visible__24xI0wB3 .nav-link__4-A4Dpdw {
+        transition-delay: 0.5s;
+        transform: translateY(0); }
+      .nav-container .nav-extra__3_bHDK0Q.visible__24xI0wB3 .nav-configurator__tiRWpIZe {
+        transition-delay: 0s;
+        transform: translateY(0); }
+  .nav-container .nav-cart__1k2SKm1W {
+    position: relative;
+    padding: 0.35714rem;
+    margin: 0.35714rem;
+    font-size: 1.28571rem;
+    color: #43525A;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translateY(0); }
+    .nav-container .nav-cart__1k2SKm1W .cart-icon__3VgmiNN2 {
+      position: relative;
+      z-index: 2; }
+    .nav-container .nav-cart__1k2SKm1W .cart-number__2gxcm8wm {
+      position: absolute;
+      z-index: 1;
+      width: 1.42857rem;
+      height: 1.42857rem;
+      margin-left: -0.71429rem;
+      left: 50%;
+      top: -0.47619rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.57143rem;
+      background-color: #28A5BE;
+      color: #fff;
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transform: scale(1); }
+    .nav-container .nav-cart__1k2SKm1W:hover {
+      transform: translateY(0.28571rem); }
+      .nav-container .nav-cart__1k2SKm1W:hover .cart-number__2gxcm8wm {
+        top: -0.57143rem;
+        transform: scale(1.2);
+        z-index: 3; }
