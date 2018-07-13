@@ -32,7 +32,7 @@ let person = function (nombre, puntosVida) {
             }
         }
         else{
-            console.warn(`${targetPerson.name} no existe`);
+            console.error(`${targetPerson.name} no existe`);
         }
 
         this.showStatus(targetPerson);
