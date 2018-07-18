@@ -46,14 +46,14 @@ let person = function (nombre, puntosVida) {
 let gandalf = new person("Gandalf",100);
 let legolas = new person("Legolas",20);
 
-console.log(gandalf);
-console.log(legolas);
+// console.log(gandalf);
+// console.log(legolas);
 
-gandalf.atacar(legolas);
-gandalf.curar(legolas);
-gandalf.atacar(legolas);
-gandalf.atacar(legolas);
-gandalf.atacar(legolas);
+// gandalf.atacar(legolas);
+// gandalf.curar(legolas);
+// gandalf.atacar(legolas);
+// gandalf.atacar(legolas);
+// gandalf.atacar(legolas);
 // gandalf.atacar(legolas);
 // gandalf.atacar(legolas);
 
