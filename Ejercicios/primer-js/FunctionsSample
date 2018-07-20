@@ -1,0 +1,64 @@
+// Sumar dos numeros, por medio de una funcion
+// la funcion retorna la multiplicacion de los documentos
+multiplicar = (a,b)=>{
+    return `Multiplicar ${a} y ${b}, Resultado: ${a*b}`;
+}
+console.log(multiplicar(2,5));
+
+// una funcion que me indique si el numero es impor por medio
+// de la consola
+isEvenNumber = (number)=>{
+    return (number % 2 != 0) ? 'Es impar' : 'No es impar';
+}
+console.log(isEvenNumber(17156));
+
+// retornar una arreglo, pero que el retorno sea su numeor opuesto
+let numeros = [4, -9, 3, -1, 8, 10, 12, 8, -7, 20];
+
+let invertirValoresArray = () =>{
+    
+    let notArray = [];
+    numeros.forEach((element)=>{
+        notArray.push(element*-1);
+    });
+
+    return notArray;
+}
+
+console.log(invertirValoresArray());
+
+
+// contar la cantidad de numeros negativos que tiene un arreglo
+let contarNegativos = (negativeArray) =>{
+    return `Hay ${negativeArray.filter((element) => {
+        return element < 0;
+    }).length} números negativos`;
+}
+
+console.log(contarNegativos(invertirValoresArray()));
+
+// hacer una funcion que sume dos numeros y devuelva su resultado
+// arrow function
+
+// hacer una funcion que concatene dos cadenas y retorne el tamaño de cada cadena
+// ejemplo 'pedroluis (9)'
+let concatenar = (a,b)=>{
+    return a+b + ` (${(a+b).length})`;
+}
+
+console.log(concatenar('Andrés','Tovar'));
+
+//hacer una funcion que retorne true o false si un numero es mayor a otro
+let greaterThan = (a,b)=>{
+    return a > b ? `${a} es mayor que ${b}` : `${a} no es mayor que ${b}`;
+}
+
+console.log(greaterThan(1,5));
+
+// hacer una funcion que retorne el minimo de dos numeros
+let getMinNumber = (a,b)=>{
+    
+    return a > b ? `${b} es el menor` : `${a} es el menor`;
+}
+
+console.log(getMinNumber(10,5));

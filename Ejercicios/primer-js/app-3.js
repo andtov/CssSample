@@ -109,6 +109,3 @@ console.log(datos.filter(getOddIds));
 // fitrar los id pares retornando un array
 
 //let $title = document.getElementById('title');
-let $title = document.getElementsByClassName('list-group-item');
-
-console.log($title);
